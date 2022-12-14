@@ -1,3 +1,5 @@
+#! /bin/bash
+
 touch instance-$(date +%Y-%m-%d-%H-%M-%S).txt  
 
 echo "Machine Name: $(uname -n)" >> instance-$(date +%Y-%m-%d-%H-%M-%S).txt  
